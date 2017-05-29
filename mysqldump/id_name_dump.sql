@@ -1,0 +1,50 @@
+-- MySQL dump 10.13  Distrib 5.7.18, for Linux (x86_64)
+--
+-- Host: localhost    Database: test
+-- ------------------------------------------------------
+-- Server version	5.7.18-0ubuntu0.16.04.1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `id_name`
+--
+
+DROP TABLE IF EXISTS `id_name`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `id_name` (
+  `id` varchar(255) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `id_name`
+--
+
+LOCK TABLES `id_name` WRITE;
+/*!40000 ALTER TABLE `id_name` DISABLE KEYS */;
+INSERT INTO `id_name` VALUES ('3120610047','杨珉'),('3120610003','郝丹'),('3120610010','周蓉'),('3120610037','陈文艳'),('3120610007','房晓楠'),('3120610004','黄丽蓉'),('3120610020','向楠'),('3120610009','马林云'),('3120610038','任梦秋'),('3120610008','朱佳慧'),('3120610030','杨胜兰'),('3120610015','林祯'),('3120610048','李承'),('3120610036','胡文越'),('3120610012','史一婷'),('3120610011','黄玮'),('3120610006','武碧蓉'),('3120610002','姚素珍'),('3120610040','邹德臣'),('3120610005','龙敏敏'),('3120610033','吴亚男'),('3120610042','尚晓伟'),('3120610034','刘敏超'),('3120610028','赵明竹'),('3120610014','左少华'),('3120610044','王朋飞'),('3120610013','张浩'),('3120610041','郑立全'),('3120610023','张新冀'),('3120610029','孟颖'),('3120610039','金程浩'),('3120610019','吴胜凯'),('3120610026','杨波'),('3120610001','廖子星'),('3120610017','韩亚太'),('3120610025','陆文宇'),('3120610022','司云飞'),('3120610043','高利剑'),('3120610024','郭定京军'),('3120610053','王华'),('3120610018','韩海鹰'),('3120610045','赵震'),('3120610035','耿娇娇'),('3120610051','王彭'),('3120610016','王世辉'),('3120610031','张姗艳'),('3120610027','余宝全'),('3120610049','罗春程'),('3120610052','殷昌鹏'),('3120610050','李耿卓');
+/*!40000 ALTER TABLE `id_name` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2017-05-29  9:59:57
